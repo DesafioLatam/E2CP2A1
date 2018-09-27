@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  background: grey url("images/bg.jpeg") no-repeat center top;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.header h1 {
+  font-family: sans-serif;
+  font-size: 3em;
+}
+
+.nav1 {
+  float:left;
+}
+
+#logo {
+  height: 70px;
+  margin: 20px;
+}
+
+ul.menu {
+  float: right;
+  list-style: none;
+  display: inline;
+  margin-right: 50px;
+}
+
+ul li {
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+  display: inline;
+}
+
+.headerContent {
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headerButton {
+  padding: 20px;
+  display: inline;
+}
+
+.blueButton {
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  background: #337ab7;
+  border: 1px solid #337ab7;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.greenButton {
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  background: #5cb85c;
+  border: 1px solid #5cb85c;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.bodyContent {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+.loquillos {
+  height: 350px;
+}
+
+.masInfo {
+  background: #fafafa;
+  border-top: 2px solid #cccccc;
+  border-bottom: 2px solid #cccccc;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+.textoInfo {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.callToAction {
+  position: relative;
+  padding: 100 100 200 100;
+  margin: 0 auto;
+  width: 70%;
+  text-align: left;
+}
+
+.callToAction p {
+  margin: 0;
+}
+
+.contact {
+  width: 30%;
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.suscribe {
+  width: 70%;
+  position: static;
+  display: inline;
+  float: left;
+}
+
+.form {
+  position: relative;
+}
+
+.form button {
+  position: static;
+  display: inline;
+  background: #fff;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #333;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.footer {
+  position: relative;
+  margin-top: -40px;
+  background-color: #000;
+  height: 40px;
+  padding: 50 300;
+  clear: both;
+  text-align: left;
+  color: #ccc;
+  font-family: sans-serif;
+}
