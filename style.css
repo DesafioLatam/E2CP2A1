@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  background: grey url("images/bg.jpeg") no-repeat center top;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.nav1 {
+  float:left;
+}
+
+#logo {
+  height: 70px;
+  margin: 20px;
+}
+
+ul.menu {
+  float: right;
+  list-style: none;
+  display: inline;
+  margin-right: 50px;
+}
+
+ul li {
+  color: white;
+  padding: 20px;
+  display: inline;
+}
+
+.headerContent {
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headerButton {
+  padding: 20px;
+  display: inline;
+}
+
+.blueButton {
+  color: white;
+  padding: 10px;
+  background: skyblue;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+}
